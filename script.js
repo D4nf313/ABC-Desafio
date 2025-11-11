@@ -1,12 +1,15 @@
 // Array con el abecedario y sus imágenes
 const abecedario = [
-    { letra: "A", imagen: "https://cdn.pixabay.com/photo/2016/11/29/13/10/animal-1869817_640.jpg", palabra: "Avión" },
-    { letra: "B", imagen: "https://cdn.pixabay.com/photo/2017/09/25/13/12/dog-2785074_640.jpg", palabra: "Ballena" },
-    { letra: "C", imagen: "https://cdn.pixabay.com/photo/2017/02/20/18/03/cat-2083492_640.jpg", palabra: "Casa" },
-    { letra: "D", imagen: "https://cdn.pixabay.com/photo/2016/11/14/04/36/boy-1822559_640.jpg", palabra: "Dedo" },
-    { letra: "E", imagen: "https://cdn.pixabay.com/photo/2016/11/18/13/43/elephant-1834856_640.jpg", palabra: "Elefante" },
-    { letra: "F", imagen: "https://cdn.pixabay.com/photo/2015/10/12/14/50/fire-984013_640.jpg", palabra: "Fuego" },
-    { letra: "G", imagen: "https://cdn.pixabay.com/photo/2017/06/21/16/14/giraffe-2427667_640.jpg", palabra: "Gato" }
+    { letra: "A", imagen: "https://cdn-icons-png.flaticon.com/512/5040/5040698.png ", palabra: "Avión" },
+    { letra: "B", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226024.png ", palabra: "Ballena" },
+    { letra: "C", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552946.png ", palabra: "Casa" },
+    { letra: "D", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226046.png ", palabra: "Dedo" },
+    { letra: "E", imagen: "https://cdn-icons-png.flaticon.com/512/5310/5310626.png ", palabra: "Elefante" },
+    { letra: "F", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226066.png ", palabra: "Fuego" },
+    { letra: "G", imagen: "https://cdn-icons-png.flaticon.com/512/3479/3479417.png ", palabra: "Gato" },
+    { letra: "H", imagen: "https://cdn-icons-png.flaticon.com/512/4019/4019787.png  ", palabra: "huevo" },
+    { letra: "I", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226092.png  ", palabra: "Iglesia" },
+    { letra: "J", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552981.png ", palabra: "Jirafa" },
 ];
 
 function crearTarjetasAbecedario() {
