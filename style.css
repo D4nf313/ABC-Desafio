@@ -4,6 +4,12 @@ h1{
 .titulo{
     color: blueviolet
 }
+
+.contenedor-tarjetas {
+    text-align: center; 
+    
+}
+
 .card {
   width: 300px;
   border: 1px solid #ddd;
@@ -11,6 +17,9 @@ h1{
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-family: Arial, sans-serif;
+  float: left; 
+
+  margin: 10px; 
 }
 .card img {
   width: 100%;

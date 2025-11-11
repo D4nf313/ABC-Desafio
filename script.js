@@ -11,7 +11,6 @@ const abecedario = [
 
 function crearTarjetasAbecedario() {
     const body = document.body;
-    const tarjetaOriginal = document.querySelector('.card');
     
     
     const contenedor = document.createElement('div');
