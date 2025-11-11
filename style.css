@@ -10,6 +10,13 @@ h1{
     
 }
 
+.contenedor-boton-palabra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .card {
   width: 300px;
   border: 1px solid #ddd;
@@ -17,7 +24,7 @@ h1{
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   font-family: Arial, sans-serif;
-  float: left; 
+    float: left;
 
   margin: 10px; 
 }
@@ -31,10 +38,7 @@ margin-bottom: 10px;
   color: #333;
   margin: 10px 0;
 }
-.card p {
-  color: #e63946;
-  font-weight: bold;
-}
+
 .btn {
   background-color: #0077cc;
   color: white;
