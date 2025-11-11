@@ -10,6 +10,23 @@ const abecedario = [
     { letra: "H", imagen: "https://cdn-icons-png.flaticon.com/512/4019/4019787.png  ", palabra: "huevo" },
     { letra: "I", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226092.png  ", palabra: "Iglesia" },
     { letra: "J", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552981.png ", palabra: "Jirafa" },
+    { letra: "K", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552989.png", palabra: "Karate" },
+    { letra: "L", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552996.png", palabra: "Lino" },
+    { letra: "M", imagen: "https://cdn-icons-png.flaticon.com/512/4552/4552998.png", palabra: "Mani" },
+    { letra: "N", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553006.png", palabra: "Niño" },
+    { letra: "Ñ", imagen: "https://cdn-icons-png.flaticon.com/512/5226/5226123.png", palabra: "Ñoño" },
+    { letra: "O", imagen: "https://cdn-icons-png.flaticon.com/512/3479/3479461.png", palabra: "Ocho" },
+    { letra: "P", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553011.png", palabra: "Pera" },
+    { letra: "Q", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553013.png", palabra: "Queso" },
+    { letra: "R", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553016.png", palabra: "Ratón" },
+    { letra: "S", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553018.png", palabra: "Sapo" },
+    { letra: "T", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553019.png", palabra: "Tetero" },
+    { letra: "U", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553022.png", palabra: "Uva" },
+    { letra: "V", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553024.png", palabra: "Venado" },
+    { letra: "W", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553026.png", palabra: "water" },
+    { letra: "X", imagen: "https://cdn-icons-png.flaticon.com/512/8532/8532367.png", palabra: "x" },
+    { letra: "Y", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553030.png", palabra: "Yuca" },
+    { letra: "z", imagen: "https://cdn-icons-png.flaticon.com/512/4553/4553032.png", palabra: "Zapato" },
 ];
 
 function crearTarjetasAbecedario() {
