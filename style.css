@@ -1,9 +1,11 @@
-h1{
-    color: aqua
+body{
+background: gray;
 }
-.titulo{
-    color: blueviolet
-}
+
+
+
+.texto-azul { color: blue !important; }
+.texto-rojo { color: red !important; }
 
 .contenedor-tarjetas {
     text-align: center; 
@@ -35,7 +37,7 @@ border-radius: 8px;
 margin-bottom: 10px;
 }
 .card h3 {
-  color: #333;
+  color: green;
   margin: 10px 0;
 }
 

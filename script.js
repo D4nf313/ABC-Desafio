@@ -51,7 +51,7 @@ function crearTarjetasAbecedario() {
   contenedor.className = "contenedor-tarjetas";
   body.appendChild(contenedor);
 
-  abecedario.forEach((item) => {
+  abecedario.forEach((item, index) => {
     const tarjeta = document.createElement("div");
     tarjeta.className = "card";
 
@@ -61,26 +61,35 @@ function crearTarjetasAbecedario() {
 
     const contenedorBotonPalabra = document.createElement("div");
     contenedorBotonPalabra.className = "contenedor-boton-palabra";
-    
+
     const palabra = document.createElement("h3");
-    palabra.textContent = item.palabra; 
-    
+    palabra.textContent = item.palabra;
+
     const boton = document.createElement("button");
     boton.className = "btn";
     boton.textContent = `Letra ${item.letra}`;
+
+    palabra.classList.add("texto-verde");
+
+    if (index < 3) {
+      palabra.classList.add("texto-azul");
+    }
+
+    if (item.letra === "E") {
+      palabra.classList.add("texto-rojo");
+    }
 
     boton.addEventListener("click", () => {
       alert(`Seleccionaste la letra ${item.letra} - ${item.palabra}`);
     });
 
-    contenedorBotonPalabra.appendChild(palabra);  
-    contenedorBotonPalabra.appendChild(boton);    
-    
-    tarjeta.appendChild(img);                     
-    tarjeta.appendChild(contenedorBotonPalabra); 
+    contenedorBotonPalabra.appendChild(palabra);
+    contenedorBotonPalabra.appendChild(boton);
+
+    tarjeta.appendChild(img);
+    tarjeta.appendChild(contenedorBotonPalabra);
     contenedor.appendChild(tarjeta);
   });
 }
 
-// Ejecutar cuando se cargue la página
 document.addEventListener("DOMContentLoaded", crearTarjetasAbecedario);
