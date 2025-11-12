@@ -180,11 +180,11 @@ function crearTarjetasAbecedario() {
     contenedor.appendChild(tarjeta);
 
     boton.addEventListener("click", () => {
-      alert(`Seleccionaste la letra ${item.letra} - ${item.palabra}`);
-
       const colores = ["green", "blue", "red"];
-      boton.style.backgroundColor =
+      const colorAleatorio =
         colores[Math.floor(Math.random() * colores.length)];
+    palabra.style.color= colorAleatorio;
+      boton.style.backgroundColor = colorAleatorio;
     });
   });
 }
